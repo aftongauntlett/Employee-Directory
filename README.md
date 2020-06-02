@@ -1,3 +1,33 @@
+# Unit 19 React Homework: Employee Directory
+
+## Overview
+
+For this assignment, you'll create a employee directory with React. This assignment will require you to break up your application's UI into components, manage component state, and respond to user events.
+
+## User Story
+
+* As a user, I want to be able to view my entire employee directory at once so that I have quick access to their information.
+
+## Business Context
+
+An employee or manager would benefit greatly from being able to view non-sensitive data about other employees. It would be particularly helpful to be able to filter employees by name.
+
+## Instructions
+
+You will create a new react app using `npx create-react-app <PROJECT_NAME>`.
+
+You will be using an API query to retrieve employee (User) data to use as your dataset.
+
+*  You can use an API such as `https://randomuser.me/` or `https://jsonplaceholder.typicode.com/` and use `axios` and the correct react life-cycle method to get data. Don't forget to install any dependencies you will need
+
+You are required to include a `search input` (i.e a form input, and event listeners). Using the search input the User will be able to search / filter (`** HINT HINT **`) employees by Last Name.
+
+
+
+
+
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
