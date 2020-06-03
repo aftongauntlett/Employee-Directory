@@ -6,7 +6,7 @@
 
 **Github:** https://github.com/aftongauntlett/Employee-Directory
 
-**Deployed:** Coming Soon
+**Deployed:** http://employee-directory.aftongauntlett.com/
 
 ## Description
 
@@ -21,6 +21,10 @@ Employee Directory built with React. Application's UI is broken into components 
 - CSS
 - JavaScript
 - API
+
+## Screenshot
+
+![Sample](https://i.imgur.com/iCKNNxC.png)
 
 ## License
 
