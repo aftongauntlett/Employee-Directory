@@ -1,14 +1,12 @@
 import React from "react";
 import "./css/App.css";
 import Header from "./components/Header";
-import SearchBar from "./components/SearchBar";
-import EmployeeList from "./components/EmployeeList";
+import EmployeeList from "./components/EmployeeList/Index";
 
 function App() {
   return (
     <div className="App">
       <Header />
-      <SearchBar />
       <EmployeeList />
     </div>
   );
