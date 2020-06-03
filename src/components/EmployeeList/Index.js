@@ -4,7 +4,6 @@ import EmployeeCard from "../EmployeeCard";
 import Table from "react-bootstrap/Table";
 import Button from "react-bootstrap/Button";
 import _ from "lodash";
-
 import "./styles.css";
 
 export default class EmployeeList extends Component {
@@ -26,7 +25,7 @@ export default class EmployeeList extends Component {
     let users = this.state.users;
     users = _.orderBy(users, this.state.sort, this.state.direction);
     return users.map((user) => {
-      if (user.name.first.includes(this.state.search)) {
+      if (user.name.first.toLowerCase().includes(this.state.search)) {
         return <EmployeeCard user={user} />;
       }
     });
