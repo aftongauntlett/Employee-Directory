@@ -7,8 +7,8 @@ export default class Header extends Component {
       <div className="Header container-fluid">
         <h1>Employee Directory</h1>
         <div>
-          Click the buttons to filter by ascending and descending order or use
-          the search box to narrow your results.
+          Click the title to filter by ascending and descending order or use the
+          search box to narrow your results.
         </div>
       </div>
     );
