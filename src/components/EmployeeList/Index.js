@@ -38,19 +38,20 @@ export default class EmployeeList extends Component {
     return (
       <div className="employeeTable">
         <input
+          className="searchBar"
           value={this.state.search}
           onChange={this.handleInputChange}
           type="text"
-          placeholder="First Name"
+          placeholder="Search First Name"
         />
         <Table responsive>
           <thead>
             <tr>
-              <th>Image</th>
-              <th>Name</th>
-              <th>Phone Number</th>
-              <th>Email Address</th>
-              <th>Age</th>
+              <th className="tablePadding">Photo</th>
+              <th className="tablePadding">Name</th>
+              <th className="tablePadding">Phone Number</th>
+              <th className="tablePadding">Email Address</th>
+              <th className="tablePadding">Age</th>
             </tr>
           </thead>
           <tbody>{this.listEmployees()}</tbody>

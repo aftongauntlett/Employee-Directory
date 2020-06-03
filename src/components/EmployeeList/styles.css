@@ -2,4 +2,20 @@
   text-align: center;
   width: 800px;
   margin: 0 auto;
+  font-family: "'Martel', serif";
+  font-size: 20px;
+}
+
+.tablePadding {
+  padding-left: 30px;
+  padding-top: 20px;
+}
+
+.searchBar {
+  margin: 20px;
+  width: auto;
+  height: auto;
+  padding: 10px;
+  text-align: center;
+  border-radius: 8px;
 }

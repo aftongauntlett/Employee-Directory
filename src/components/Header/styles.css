@@ -1,6 +1,8 @@
 .Header {
-  background-color: navy;
-  padding: 50px;
+  background-color: rgb(2, 2, 71);
+  padding: 35px;
   border-bottom: red 10px solid;
   color: white;
+  font-family: "'Martel', serif";
+  font-size: 25px;
 }

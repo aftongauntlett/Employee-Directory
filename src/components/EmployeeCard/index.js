@@ -6,19 +6,18 @@ export default class EmployeeCard extends Component {
     return (
       <tr>
         <td>
-          <img
-            src={this.props.user.picture.thumbnail}
-            alt="Employee Photo"
-          ></img>
+          <img src={this.props.user.picture.large} alt="Employee Photo"></img>
         </td>
-        <td>{this.props.user.name.first + " " + this.props.user.name.last}</td>
-        <td>{this.props.user.cell}</td>
-        <td>
+        <td className="employeeInfo">
+          {this.props.user.name.first + " " + this.props.user.name.last}
+        </td>
+        <td className="employeeInfo">{this.props.user.cell}</td>
+        <td className="employeeInfo">
           <a href={"mailto:" + this.props.user.email}>
             {this.props.user.email}
           </a>
         </td>
-        <td>{this.props.user.dob.age}</td>
+        <td className="employeeInfo">{this.props.user.dob.age}</td>
       </tr>
     );
   }
